@@ -35,8 +35,9 @@ namespace PluggablePortableAreas.Web
         {
             Debug.WriteLine("PluggablePortableAreasApplication AppStart");
             
+            //Message handlers are automatically scanned by MVCContrib apparently, so no need to add them manually
             //MvcContrib.Bus.AddMessageHandler(typeof(RegisterAreaEventHandler));
-            MvcContrib.Bus.AddMessageHandler(typeof(LogAllMessagesObserver));
+            //MvcContrib.Bus.AddMessageHandler(typeof(LogAllMessagesObserver));
 
             AreaRegistration.RegisterAllAreas();
 
