@@ -4,6 +4,8 @@ PluggablePortableAreas
 A short demo about how to create pluggable portable areas using MVCContrib.
 This is an answer to this StackOverflow question: http://stackoverflow.com/questions/11023748/dynamically-extending-features-of-an-application
 
+MVC4 version is available here: https://github.com/AkosLukacs/PluggablePortableAreasMVC4
+
 Structure of the solution:
 
 ##Core projects:
